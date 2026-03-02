@@ -11,14 +11,21 @@ export function SiteFooter() {
 
           <div className="flex items-center space-x-4">
             <Link
-              href="tel:+79198635629"
+              href="tel:+79001234567"
               className="flex items-center space-x-2 text-sm text-muted-foreground hover:text-primary transition-colors"
             >
               <span className="text-lg">📞</span>
-              <span>+7 (919) 863 56-29</span>
+              <span>+7 (900) 123-45-67</span>
             </Link>
             <Link
-              href="https://t.me/BNatasha2709"
+              href="mailto:info@example.com"
+              className="flex items-center space-x-2 text-sm text-muted-foreground hover:text-primary transition-colors"
+            >
+              <span className="text-lg">✉️</span>
+              <span>info@example.com</span>
+            </Link>
+            <Link
+              href="https://t.me/username"
               className="flex items-center space-x-2 text-sm text-muted-foreground hover:text-primary transition-colors"
             >
               <span className="text-lg">💬</span>

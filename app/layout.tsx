@@ -4,7 +4,6 @@ import { Inter } from "next/font/google"
 import { Cormorant_Garamond } from "next/font/google"
 import { Suspense } from "react"
 import "./globals.css"
-import { AmbientBackground } from "@/components/ambient-background"
 
 const inter = Inter({
   subsets: ["latin", "cyrillic"],
@@ -40,8 +39,7 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="ru" className={`${inter.variable} ${cormorant.variable}`}>
-      <body className="font-sans antialiased bg-white">
-        <AmbientBackground />
+      <body className="font-sans antialiased">
         <Suspense fallback={null}>{children}</Suspense>
       </body>
     </html>

@@ -47,8 +47,15 @@ export function ContactForm() {
               <label htmlFor="phone" className="block text-sm font-medium mb-2">
                 Телефон *
               </label>
-              <Input id="phone" name="phone" type="tel" required placeholder="+7 (919) 863 56-29" />
+              <Input id="phone" name="phone" type="tel" required placeholder="+7 (900) 123-45-67" />
             </div>
+          </div>
+
+          <div>
+            <label htmlFor="email" className="block text-sm font-medium mb-2">
+              Email
+            </label>
+            <Input id="email" name="email" type="email" placeholder="your@email.com" />
           </div>
 
           <div>

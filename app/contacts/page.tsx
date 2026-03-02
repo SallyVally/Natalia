@@ -4,7 +4,7 @@ import { Section } from "@/components/section"
 import { ContactForm } from "@/components/contact-form"
 import { Card, CardContent, CardHeader, CardTitle } from "@/components/ui/card"
 import { Button } from "@/components/ui/button"
-import { Phone, MessageCircle, Clock, MapPin, Send } from "lucide-react"
+import { Phone, Mail, MessageCircle, Clock, MapPin, Send } from "lucide-react"
 
 export default function ContactsPage() {
   return (
@@ -52,7 +52,7 @@ export default function ContactsPage() {
                   <MapPin className="h-5 w-5 text-primary" />
                   <div>
                     <p className="font-medium">Адрес</p>
-                    <p className="text-muted-foreground">г. Оренбург, пер. Матросский, д. 12</p>
+                    <p className="text-muted-foreground"> г. Оренбург, пер. Матросский д.12, каб. 202</p>
                   </div>
                 </div>
               </CardContent>
@@ -90,7 +90,7 @@ export default function ContactsPage() {
               <CardContent>
                 <p className="text-muted-foreground mb-4">Для срочных вопросов или быстрой записи на консультацию</p>
                 <Button className="w-full bg-accent hover:bg-accent/90 text-accent-foreground" asChild>
-                  <a href="https://t.me/BNatasha2709" className="flex items-center justify-center gap-2">
+                  <a href="https://t.me/username" className="flex items-center justify-center gap-2">
                     <Send className="h-4 w-4" />
                     Написать в Telegram
                   </a>

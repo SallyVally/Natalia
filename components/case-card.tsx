@@ -10,11 +10,11 @@ interface CaseCardProps {
 
 export function CaseCard({ case: caseItem }: CaseCardProps) {
   return (
-    <Card className="glass-card h-full flex flex-col hover:border-[var(--color-lilac-bright)]/30 transition-all duration-300 hover:shadow-lg hover:scale-[1.02]">
+    <Card className="h-full flex flex-col">
       <CardHeader>
         <div className="flex flex-wrap gap-2 mb-2">
           {caseItem.tags.map((tag) => (
-            <Badge key={tag} variant="secondary" className="glass-lilac text-white border-transparent">
+            <Badge key={tag} variant="secondary" className="bg-accent/20 text-accent-foreground">
               {tag}
             </Badge>
           ))}
